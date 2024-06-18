@@ -1,5 +1,4 @@
 ﻿using PeopleInspection.Interfaces;
-using PeopleInspection.Models;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -13,8 +12,8 @@ namespace PeopleInspection.Models
         {
             _people = new List<Person>
             {
-                new Person { Id = 1, Name = "John Doe", City = "New York" },
-                new Person { Id = 2, Name = "Jane Smith", City = "Los Angeles" }
+                new Person { Id = 1, Name = "Maksym Lusz", City = "Växjö" },
+                new Person { Id = 2, Name = "Adam Wasilewski", City = "Wroclaw" }
             };
         }
 
@@ -25,7 +24,7 @@ namespace PeopleInspection.Models
 
         public Person GetPersonById(int id)
         {
-            return _people.FirstOrDefault(p => p.Id == id);
+            return _people.FirstOrDefault(p => p.Id == id)!;
         }
 
         public void AddPerson(Person person)
@@ -43,4 +42,5 @@ namespace PeopleInspection.Models
         }
     }
 }
+
 

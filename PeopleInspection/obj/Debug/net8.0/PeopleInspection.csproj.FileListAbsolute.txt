@@ -58,3 +58,4 @@ D:\PeopleInspection\PeopleInspection\obj\Debug\net8.0\refint\PeopleInspection.dl
 D:\PeopleInspection\PeopleInspection\obj\Debug\net8.0\PeopleInspection.pdb
 D:\PeopleInspection\PeopleInspection\obj\Debug\net8.0\PeopleInspection.genruntimeconfig.cache
 D:\PeopleInspection\PeopleInspection\obj\Debug\net8.0\ref\PeopleInspection.dll
+D:\PeopleInspection\PeopleInspection\obj\Debug\net8.0\PeopleInspection.sourcelink.json

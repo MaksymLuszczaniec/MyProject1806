@@ -4,16 +4,16 @@ using PeopleInspection.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
 
-// Register dependencies
 builder.Services.AddSingleton<IPeopleRepo, PeopleRepo>();
 builder.Services.AddScoped<IPeopleService, PeopleService>();
 
+
+builder.Services.AddControllersWithViews();
+
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -22,9 +22,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(
@@ -32,4 +30,5 @@ app.MapControllerRoute(
     pattern: "{controller=PeopleInspection}/{action=Index}/{id?}");
 
 app.Run();
+
 

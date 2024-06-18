@@ -5,7 +5,7 @@ namespace PeopleInspection.ViewModels
 {
     public class SearchViewModel
     {
-        public string SearchString { get; set; }
-        public List<Person> People { get; set; }
+        public string SearchString { get; set; } = string.Empty;
+        public List<Person> People { get; set; } = new List<Person>();
     }
 }

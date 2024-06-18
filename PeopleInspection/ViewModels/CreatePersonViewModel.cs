@@ -5,10 +5,11 @@ namespace PeopleInspection.ViewModels
     public class CreatePersonViewModel
     {
         [Required]
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
 
         [Required]
-        public string City { get; set; }
+        public string City { get; set; } = string.Empty;
     }
 }
+
 
