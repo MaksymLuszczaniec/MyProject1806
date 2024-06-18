@@ -67,5 +67,3 @@ namespace PeopleInspection.Controllers
         }
     }
 }
-
-

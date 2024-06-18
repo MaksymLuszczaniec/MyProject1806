@@ -31,6 +31,8 @@ namespace PeopleInspection.Models
 
         public void AddPerson(Person person)
         {
+            
+            person.Id = _people.Max(p => p.Id) + 1;
             _people.Add(person);
         }
 
@@ -44,5 +46,6 @@ namespace PeopleInspection.Models
         }
     }
 }
+
 
 

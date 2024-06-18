@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PeopleInspection")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5393d7287691dffdcaa15415e491159ae64978a0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a9e14cfabe0d0408c0203b850b5db53746f946d")]
 [assembly: System.Reflection.AssemblyProductAttribute("PeopleInspection")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PeopleInspection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
