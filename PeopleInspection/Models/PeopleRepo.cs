@@ -12,8 +12,10 @@ namespace PeopleInspection.Models
         {
             _people = new List<Person>
             {
-                new Person { Id = 1, Name = "Maksym Lusz", City = "Växjö" },
-                new Person { Id = 2, Name = "Adam Wasilewski", City = "Wroclaw" }
+                new Person { Id = 1, Name = "John Doe", City = "New York" },
+                new Person { Id = 2, Name = "Jane Smith", City = "Los Angeles" },
+                new Person { Id = 3, Name = "Maksym Lusz", City = "Växjö" },
+                new Person { Id = 4, Name = "Adam Wasilewski", City = "Wroclaw" }
             };
         }
 
