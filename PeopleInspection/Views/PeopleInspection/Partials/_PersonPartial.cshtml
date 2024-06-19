@@ -1,0 +1,7 @@
+﻿@model PeopleInspection.Models.Person
+
+<div class="person-item">
+    <h3>@Model.Name</h3>
+    <p>City: @Model.City</p>
+    <a asp-action="Details" asp-route-id="@Model.Id" class="btn btn-primary">Details</a>
+</div>
